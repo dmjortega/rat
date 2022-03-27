@@ -34,7 +34,11 @@ li{
 }
 #containers{
     width: 1300px;
+    height: 750px;
     margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .box{
     border-radius: 25px;
@@ -42,9 +46,6 @@ li{
     background-color: rgb(154, 240, 154);
     width: 170px;
     height: 450px;
-    margin-left: 15px;
-    margin-top: 50px;
-    float: left;
     border: solid 2px rgb(34, 85, 34)
 }
 .box h3{
